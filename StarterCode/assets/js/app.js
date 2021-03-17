@@ -15,7 +15,7 @@ var svg = d3.select("#scatter")
     .attr("height", height)
     .attr("class", "chart");
 
-// Labels for axes=================================
+// Labels for axes
 // Add first g - tag for x axis text (css class)
 svg.append("g").attr("class", "xText");
 var xText = d3.select(".xText");
@@ -28,7 +28,7 @@ xText.attr("transform",`translate(
     ${bottomTextY})`
     );
 
-// x-axis (bottom) ______________________________
+// x-axis (bottom)
 // Build xText details (css class)
 xText.append("text")
     .attr("y", -19)
@@ -51,7 +51,7 @@ xText.append("text")
     .attr("class","aText inactive x")
     .text("Household Income (Median)");
 
-// y-axis (left)___________________________________
+// y-axis (left)
 // Second g tag for yText (css class)
 svg.append("g").attr("class", "yText");
 var yText = d3.select(".yText");
@@ -87,7 +87,7 @@ yText .append("text")
     .attr("class", "aText inactive y")
     .text("Lacks Healthcare (%)");
     
-// Visualize data  _______________________________________  
+// Visualize data 
 // Define dynamic circle radius
 var cRadius;
 function adjustRadius() {
