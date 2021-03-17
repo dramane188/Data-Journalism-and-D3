@@ -302,7 +302,7 @@ function visualize (csvData) {
                             return xScale(d[currentX])                          
                         });
                   });          
-                  // Update
+                  // Update===========
                   labelUpdate(axis, self);
                 }
 
