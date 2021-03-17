@@ -1,4 +1,4 @@
-// Set up our chart.
+// Set up our chart...
 var svgWidth = window.innerWidth;
 var svgHeight = window.innerHeight;
 
