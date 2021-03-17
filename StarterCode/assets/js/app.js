@@ -8,7 +8,7 @@ var margin = 10;
 var labelArea = 110;
 var padding = 45;
 
-// Create SVG object 
+// Create SVG object.
 var svg = d3.select("#scatter")
     .append("svg")
     .attr("width", width)
