@@ -65,7 +65,7 @@ yText.attr("transform",`translate(
     )rotate(-90)`
     );
 
-// Build yText details (css class)
+// Build yText details (css class)..
 yText .append("text")
     .attr("y", -22)
     .attr("data-name", "obesity")
